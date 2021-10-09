@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { providers, getSession } from 'next-auth/client'
 import Router from 'next/router'
 
-import BtnLogin from '../components/BtnLogin'
+// import BtnLogin from '../components/BtnLogin'
 
 const Login = ({providers, session}) => {
   
